@@ -4495,8 +4495,11 @@
   // comments.js).
   var PROTOTYPE_PATHS = [
     '/main/risk',
+    '/main/reports',
     '/main/systemconfig',
     '/main/exception-configuration',
+    '/main/listening-endpoints',
+    '/main/policy-management',
     '/main/violations',
     '/main/vulnerabilities/',
     '/main/clusters',
