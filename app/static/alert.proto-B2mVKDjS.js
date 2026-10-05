@@ -1,0 +1,1 @@
+const n=Object.freeze({BUILD:"BUILD",DEPLOY:"DEPLOY",RUNTIME:"RUNTIME"});function o(e){return"deployment"in e&&!!e.deployment}function r(e){return"resource"in e&&!!e.resource}function t(e){return"node"in e&&!!e.node}export{n as L,r as a,t as b,o as i};
