@@ -1,1 +1,0 @@
-import{aq as n}from"./index-B6UX5rPl.js";const c="/v1/externalbackups";function u(){return n.get(c).then(t=>{var a;return((a=t==null?void 0:t.data)==null?void 0:a.externalBackups)??[]})}function i(t){return n.post(`${c}/${t}`)}export{u as f,i as t};
