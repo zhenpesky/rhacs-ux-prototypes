@@ -11,7 +11,7 @@ ENABLE_COMMENTS=true
 # ──────────────────────────────────────────────────────────────────────────
 
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
-SOURCE_DIR="$HOME/Documents/ACS-workspace/stackrox-prototype-sandbox/ui/apps/platform"
+SOURCE_DIR="${SOURCE_DIR:-$HOME/Documents/ACS-workspace/stackrox-prototype-sandbox/ui/apps/platform}"
 BUILD_DIR="$SOURCE_DIR/build"
 DEPLOY_DIR="$REPO_DIR/app"
 
